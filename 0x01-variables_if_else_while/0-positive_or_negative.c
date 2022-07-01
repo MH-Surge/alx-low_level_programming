@@ -1,10 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* 
- * main: assigns random number to variable 'n' when its run/executed. Prints 
+
+/**
+ * main -> assigns random number to variable 'n' when its run/executed. Prints 
  * based on a condition
- * Return: 0 Always
+ * Return : 0 Always
  */
 int main(void)
 {
@@ -12,9 +13,9 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n>0)
+	if (n > 0)
 		printf("%d is positive\n", n);
-	if (n==0)
+	if (n == 0)
 		printf("%d is zero\n", n);
 	if (n < 0)
 {
