@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * * Main - Print alphabet in lowercase followed by a new line using putchar
- *  * Description: program prints the alphabet in lowercase followed by new line
+ * * Main - Print numbers 0-9
+ *  * Description: program prints numbers followed by new line
  *   * Return: Always 0
  *    *
  *     */
