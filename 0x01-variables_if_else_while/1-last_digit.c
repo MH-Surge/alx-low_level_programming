@@ -3,8 +3,9 @@
 #include <stdio.h>
 
 /**
- * Main: assings random number to variable n when executed
- * Reuturn : Always 0
+ * Main - assings random number to variable n when executed
+ * Description: This program will assign a random no and print last digit stored in var
+ * Reuturn: Always 0
 */
 int main(void)
 {
